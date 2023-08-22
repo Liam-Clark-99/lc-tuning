@@ -19,6 +19,11 @@ body {
 /* Header */
 header {
     background-color: red;
+    position: fixed;
+    padding: 0 1rem;
+    z-index: 50;
+    width: 100%;
+    box-shadow: 0 2px 2px;
 }
 
 /* main */
@@ -33,10 +38,29 @@ footer {
 }
 
 header a {
-    text-transform: uppercase;
     text-decoration: none;
+    color: inherit;
 }
 
-header h1 {
+h1 {
     letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+nav {
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+.active {
+    border-bottom: 1px solid;
 }
