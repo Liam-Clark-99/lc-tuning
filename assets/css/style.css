@@ -24,12 +24,16 @@ header {
     z-index: 50;
     width: 100%;
     box-shadow: 0 2px 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 /* main */
 main {
     background-color: aqua;
     flex: 1 0 auto;
+    margin-top: 40px;
 }
 
 /* footer */
@@ -55,6 +59,7 @@ nav {
     box-shadow: 0 2px 2px;
     left: 0%;
     display: none;
+    top: 100%
 }
 
 #menu {
@@ -65,4 +70,17 @@ nav {
 
 .active {
     border-bottom: 1px solid;
+}
+
+/* nav-toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
