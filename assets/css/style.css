@@ -18,7 +18,7 @@ body {
 
 /* Header */
 header {
-    background-color: red;
+    background-color: black;
     position: fixed;
     padding: 0 1rem;
     z-index: 50;
@@ -43,7 +43,7 @@ footer {
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color: red;
 }
 
 h1 {
@@ -53,7 +53,7 @@ h1 {
 
 nav {
     position: absolute;
-    background-color: red;
+    background-color: black;
     width: 100%;
     padding: 0 1rem;
     box-shadow: 0 2px 2px;
@@ -83,4 +83,5 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: red;
 }
