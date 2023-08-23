@@ -84,6 +84,7 @@ nav {
     right: 0%;
 }
 
+/* Giving underline to active page */
 .active {
     border-bottom: 1px solid;
 }
