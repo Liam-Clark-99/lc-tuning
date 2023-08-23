@@ -59,6 +59,7 @@ footer {
 header a {
     text-decoration: none;
     color: red;
+    height: 70px;
 }
 
 h1 {
