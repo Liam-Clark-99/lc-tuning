@@ -57,7 +57,7 @@ nav {
     width: 100%;
     padding: 0 1rem;
     box-shadow: 0 2px 2px;
-    left: 0%;
+    left:0%;
     display: none;
     top: 100%
 }
@@ -66,6 +66,7 @@ nav {
     font-size: 110%;
     letter-spacing: 2px;
     list-style-type: none;
+    right:0%;
 }
 
 .active {
@@ -84,4 +85,27 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
     color: red;
+}
+
+/* Media query for screen sizes above 768px */
+@media screen and (min-width:768px) {
+    /* Header */
+    nav {
+        display:block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display:none;
+    }
 }
