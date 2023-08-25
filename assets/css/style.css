@@ -129,6 +129,7 @@ nav {
     }
 }
 
+
 /* For devices larger than 992px */
 @media screen and (min-width:992px) {
     #menu a:hover {
