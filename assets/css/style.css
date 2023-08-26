@@ -140,6 +140,10 @@ nav {
     color: red;
 }
 
+iframe {
+    padding-left: 10px;
+}
+
 /* Style rules for screens below 500px */
 @media screen and (max-width:500px) {
     img {
