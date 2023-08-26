@@ -44,14 +44,34 @@ main {
 
 /* Background image for index.html */
 #background-image {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url("../images/diff+tip.webp") no-repeat center center/cover;
 }
 
 #cover-text {
-    background-color: rgba(128, 0, 128, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     font-size: 125%;
+}
+
+/* Styling for about section */
+#about {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+/* Styling for benefits section */
+#benefits {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#benefits-list {
+    margin-left: 20px;
+    width: display:list-item
 }
 
 /* footer */
