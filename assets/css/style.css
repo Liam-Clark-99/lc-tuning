@@ -177,6 +177,11 @@ nav {
         right: 5px;
         top: 120px;
     }
+
+    iframe {
+        width: 600px;
+        height: 300px;
+    }
 }
 
 
@@ -191,15 +196,26 @@ nav {
         right: 5px;
         top: 100px;
     }
+
+    iframe {
+        width: 900px;
+        height: 450px;
+    }
 }
 
 /* Style rules for devices larger than 1281px */
-@media screem and (min-width:1281px) {
-    #engine-image {
+@media screen and (min-width:1281px) {
+
+    img {
         position: absolute;
-        right: 5px;
+        right: 10px;
         top: 75px;
-        width: 700px;
+        width: 800px;
         height: 300px;
+    }
+
+    iframe {
+        width: 1200px;
+        height: 600px;
     }
 }
