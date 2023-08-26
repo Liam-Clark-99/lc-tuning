@@ -71,7 +71,10 @@ main {
 
 #benefits-list {
     margin-left: 20px;
-    width: display:list-item
+}
+
+#engine-mods {
+    margin-left: 20px;
 }
 
 /* footer */
