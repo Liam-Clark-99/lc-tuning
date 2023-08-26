@@ -16,6 +16,13 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
 /* Header */
 header {
     background-color: black;
@@ -39,7 +46,12 @@ main {
 #background-image {
     height: 600px;
     width: 100%;
-    background: url("../images/diff+tip.webp") no-repeat center center/cover
+    background: url("../images/diff+tip.webp") no-repeat center center/cover;
+}
+
+#cover-text {
+    background-color: rgba(128, 0, 128, 0.5);
+    font-size: 125%;
 }
 
 /* footer */
@@ -66,11 +78,6 @@ header a {
     text-decoration: none;
     color: red;
     height: 70px;
-}
-
-h1 {
-    letter-spacing: 5px;
-    text-transform: uppercase;
 }
 
 nav {
