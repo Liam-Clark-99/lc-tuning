@@ -149,6 +149,25 @@ iframe {
     padding-top: 5px;
 }
 
+#get_in_touch {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+#map {
+    padding-left: 5px;
+    padding-bottom: 15px;
+}
+
+#signup {
+    padding-left: 5px;
+}
+
+table {
+    font-size: 125%;
+}
+
 /* Style rules for screens below 500px */
 @media screen and (max-width:500px) {
     img {
@@ -190,6 +209,16 @@ iframe {
     iframe {
         width: 600px;
         height: 300px;
+    }
+
+    .signup_container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .opening_times_container {
+        display: flex;
+        justify-content: center;
     }
 }
 
