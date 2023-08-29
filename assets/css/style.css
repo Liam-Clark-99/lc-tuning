@@ -49,6 +49,7 @@ main {
     background: url("../images/pexels-jvxhn-visuals-15646673.jpg") no-repeat center center/cover;
 }
 
+/* Text to cover background image */
 #cover-text {
     background-color: rgba(255, 255, 255, 0.5);
     font-size: 125%;
