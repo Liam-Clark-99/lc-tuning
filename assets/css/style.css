@@ -78,6 +78,15 @@ main {
     margin-left: 20px;
 }
 
+.engine_mods_container {
+    display: flex;
+}
+
+
+#engine_image {
+    flex-grow: 3;
+}
+
 #engine-mods {
     margin-left: 20px;
 }
