@@ -82,11 +82,6 @@ main {
     display: flex;
 }
 
-
-#engine_image {
-    flex-grow: 3;
-}
-
 #engine-mods {
     margin-left: 20px;
 }
@@ -190,7 +185,7 @@ table {
 /* Style rules for screens below 500px */
 @media screen and (max-width:500px) {
     img {
-        max-width: 400px;
+        display: none;
     }
 }
 
@@ -251,7 +246,8 @@ table {
     img {
         position: absolute;
         right: 5px;
-        top: 100px;
+        top: 80px;
+        max-width: 480px;
     }
 
     iframe {
@@ -267,8 +263,7 @@ table {
         position: absolute;
         right: 10px;
         top: 75px;
-        width: 800px;
-        height: 300px;
+        max-width: 550px;
     }
 
     iframe {
